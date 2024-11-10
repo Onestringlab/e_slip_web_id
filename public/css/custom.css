@@ -1,0 +1,36 @@
+.text-bg-success {
+    background-color: #536493 !important;
+    /* Ganti dengan warna yang Anda inginkan */
+    color: white;
+    /* Atur ulang warna teks jika diperlukan */
+}
+
+.border-success {
+    border-color: #536493 !important;
+}
+
+.btn-success {
+    background-color: #536493 !important;
+    border-color: #536493 !important;
+}
+
+.btn-primary {
+    background-color: #3C552D !important;
+    border-color: #3C552D !important;
+}
+
+.btn-secondary {
+    background-color: #6c757d !important;
+    /* Replace with your desired color */
+    border-color: #6c757d !important;
+}
+
+.btn-warning {
+    background-color: #D7B26D !important;
+    border-color: #D7B26D !important;
+}
+
+.btn-danger {
+    background-color: #CA7373 !important;
+    border-color: #CA7373 !important;
+}
