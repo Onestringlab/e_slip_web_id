@@ -37,12 +37,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('makanlist') }}"><i class="fas fa-utensils"></i> Uang Makan</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="{{ route('kendaraanlist') }}"><i class="fas fa-car-side"></i> Uang Transportasi</a>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="{{ route('presensilist') }}"><i class="fa-solid fa-calendar-check"></i> Presensi</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('potongansslip') }}"><i class="fa-regular fa-file-lines"></i> {{ __('Potongan') }}</a>
                 </li>

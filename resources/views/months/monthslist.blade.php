@@ -14,15 +14,15 @@ Data Months 
 					<thead class="thead-dark">
 						<tr class="align-middle text-center">
 							<th width="30">No</th>
-							<th width="90">Tahun</th>
-							<th width="90">Bulan</th>
-							<th width="120">Gaji</th>
+							<th width="120">Tahun</th>
+							<th>Bulan</th>
+							<th width="160">Gaji</th>
 							<th width="160">Tunjangan Kinerja</th>
-							<th width="140">Uang Makan</th>
-							<th width="160">Uang Transportasi</th>
-							<th width="120">Presensi</th>
-							<th width="120">Potongan</th>
-							<th class="text-center"><a class="btn btn-primary" href="{{asset('/')}}months/create"><i class="fas fa-plus"></i></a></th>
+							<th width="160">Uang Makan</th>
+							<!-- <th width="160">Uang Transportasi</th> -->
+							<!-- <th width="120">Presensi</th> -->
+							<th width="160">Potongan</th>
+							<th width="120" class="text-center"><a class="btn btn-primary" href="{{asset('/')}}months/create"><i class="fas fa-plus"></i></a></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -35,8 +35,8 @@ Data Months 
 							<td><a class="btn text-light btn-warning" href="{{asset('/')}}allowances/data/{{ $row->id }}"><i class="fa-solid fa-money-check"></i></a></td>
 							<td><a class="btn text-light btn-primary" href="{{asset('/')}}grand/data/{{ $row->id }}"><i class="fa-solid fa-money-bill"></i></a></td>
 							<td><a class="btn text-light btn-secondary" href="{{ asset('/') }}meals/data/{{ $row->id }}"><i class="fas fa-utensils"></i></a></td>
-							<td><a class="btn text-light btn-dark" href="{{ asset('/') }}transport/data/{{ $row->id }}"><i class="fas fa-car-side"></i></a></td>
-							<td><a class="btn text-light btn-info" href="{{asset('/')}}presence/data/{{ $row->id }}"><i class="fa-solid fa-calendar-check"></i></a></td>
+							<!-- <td><a class="btn text-light btn-dark" href="{{ asset('/') }}transport/data/{{ $row->id }}"><i class="fas fa-car-side"></i></a></td> -->
+							<!-- <td><a class="btn text-light btn-info" href="{{asset('/')}}presence/data/{{ $row->id }}"><i class="fa-solid fa-calendar-check"></i></a></td> -->
 							<td><a class="btn btn-success" href="{{asset('/')}}potongans/data/{{ $row->id }}"><i class="fa-regular fa-file-lines"></i></a></td>
 							<td class="text-center">
 								<a class="btn btn-success" href="{{asset('/')}}months/{{ $row->id }}"><i class="fas fa-info-circle"></i></a>
