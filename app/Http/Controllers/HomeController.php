@@ -31,7 +31,7 @@ class HomeController extends Controller
             $satuankerja = $satker->nama;
         }
         else{
-            $satuankerja = "SLIP.web.id";
+            $satuankerja = "e.SLIP.web.id";
         }
         return view('home', ['satuankerja' => $satuankerja]);
     }
