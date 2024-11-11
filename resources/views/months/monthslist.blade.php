@@ -13,16 +13,16 @@ Data Months 
 				<table class="table table-striped table-hover ">
 					<thead class="thead-dark">
 						<tr class="align-middle text-center">
-							<th width="30">No</th>
+							<th width="50">No</th>
 							<th width="120">Tahun</th>
-							<th>Bulan</th>
-							<th width="160">Gaji</th>
-							<th width="160">Tunjangan Kinerja</th>
-							<th width="160">Uang Makan</th>
+							<th width="200">Bulan</th>
+							<th>Gaji</th>
+							<th>Tunjangan Kinerja</th>
+							<th>Uang Makan</th>
 							<!-- <th width="160">Uang Transportasi</th> -->
 							<!-- <th width="120">Presensi</th> -->
-							<th width="160">Potongan</th>
-							<th width="120" class="text-center"><a class="btn btn-primary" href="{{asset('/')}}months/create"><i class="fas fa-plus"></i></a></th>
+							<th>Potongan</th>
+							<th width="160" class="text-center"><a class="btn btn-primary" href="{{asset('/')}}months/create"><i class="fas fa-plus"></i></a></th>
 						</tr>
 					</thead>
 					<tbody>
